@@ -1,3 +1,14 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Dataview 코드 블록을 Quartz 웹사이트에서 숨깁니다.
+// Quartz 4의 rehype-pretty-code 렌더링 결과에 맞춰 수정되었습니다.
+figure[data-rehype-pretty-code-figure] pre[data-language="dataview"] {
+  display: none;
+}
+
+/* 페이지 상단 Breadcrumbs (경로) 숨기기 (우선순위 높임) */
+.page-header > .breadcrumbs {
+  display: none !important; /* <--- !important 추가 */
+}

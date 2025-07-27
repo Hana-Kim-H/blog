@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: "Home"
+menu: "Home"
+lang: "ko-en"
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# My Studio
+
+- [강점 Study](project/content/strength/)

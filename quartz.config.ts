@@ -17,7 +17,13 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: [
+	"project/private/**",
+	"project/_template/**",
+	".obsidian",
+	"project/Private",
+	"project/_templates",
+	],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -51,6 +57,7 @@ const config: QuartzConfig = {
           textHighlight: "#b3aa0288",
         },
       },
+	customCss: "./quartz/styles/custom.scss",
     },
   },
   plugins: {
